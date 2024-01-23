@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 10px solid rgb(61, 61, 61);
+}
+
+.logoContainer {
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+   }
+   
+   li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+   }

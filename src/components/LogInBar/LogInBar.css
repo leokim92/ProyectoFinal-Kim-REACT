@@ -1,0 +1,25 @@
+.bagImg {
+    width: 40px;
+}
+
+.magGlass {
+    width: 20px;
+    position: relative;
+    right: 21px;
+    bottom: 9px;
+}
+
+.search {
+   position: relative;
+   bottom: 10px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   border-bottom:  2px solid rgb(0, 0, 0);
+   outline: 0;
+}
+
+.logIn {
+    position: relative;
+    bottom: 10px;
+}

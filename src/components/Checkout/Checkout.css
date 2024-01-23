@@ -1,0 +1,44 @@
+.Checkout {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.CheckoutInfo {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+.InputField {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SpecificField {
+    height: 20px;
+    width: 500px;
+}
+
+.TotalCost {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.FormComplete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.PersonalInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
