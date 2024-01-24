@@ -15,7 +15,7 @@ const ItemDetail = ({id, name, stock, price, img}) => {
   const qtyControl = (qty) => {
     setAddQty (qty);
     
-    const item = {id, name, price};
+    const item = {id, img, name, price};
     addToCart(item, qty);
   }
   

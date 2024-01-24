@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom"
 
 const NavBar = () => {
     const logo = 'https://thumb.mt.co.kr/06/2015/09/2015092316215415842_1.jpg/dims/optimize/'
+
   return (
     <header>
         <div className="logoContainer">
@@ -17,9 +18,9 @@ const NavBar = () => {
 
         <nav>
             <ul>
-                <li><NavLink>tailored</NavLink></li>
-                <li><NavLink>rent</NavLink></li>
-                <li><NavLink>2024 fashion now!</NavLink></li>
+                <li><NavLink to="*" element={<h2>Working for you</h2>}>tailored</NavLink></li>
+                <li><NavLink to="*" element={<h2>Working for you</h2>}>rent</NavLink></li>
+                <li><NavLink to="*" element={<h2>Working for you</h2>}>2024 fashion now!</NavLink></li>
                 <li><NavLink to='category/1'>man</NavLink></li>
                 <li><NavLink to='category/2'>woman</NavLink></li>
                 <li><NavLink to='category/3'>children</NavLink></li>
